@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marc Harris — electrical, retail fit-out, infrastructure and project delivery portfolio.">
+  <meta name="theme-color" content="#08111f">
+  <title>Marc Harris | Work Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <span class="brand-mark">MH</span>
+      <span><strong>Marc Harris</strong><small>Technical Work Portfolio</small></span>
+    </a>
+    <button class="menu-button" id="menuButton" aria-label="Open menu"><i data-lucide="menu"></i></button>
+    <nav id="mainNav">
+      <a href="#profile">Profile</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#projects">Projects</a>
+      <a href="#archive">Archive</a>
+      <a class="nav-cta" href="https://www.flickr.com/photos/storefit/albums/" target="_blank" rel="noreferrer">Flickr</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="kicker">Photographic career evidence</span>
+        <h1>Practical experience,<br><em>documented.</em></h1>
+        <p>
+          A visual record of hands-on electrical work, retail fit-outs, data installations,
+          cable jointing, site infrastructure, surveys and project delivery.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects"><i data-lucide="images"></i> View project evidence</a>
+          <a class="button secondary" href="assets/Marc-Harris-CV.pdf"><i data-lucide="file-down"></i> Download CV</a>
+        </div>
+        <p class="cv-note">Replace the sample CV file in the <code>assets</code> folder with your latest PDF.</p>
+      </div>
+
+      <div class="hero-panel">
+        <div class="hero-icon"><i data-lucide="hard-hat"></i></div>
+        <span>Career archive</span>
+        <strong>39</strong>
+        <p>public Flickr albums supplied</p>
+        <div class="mini-grid">
+          <span><i data-lucide="zap"></i> Electrical</span>
+          <span><i data-lucide="store"></i> Retail</span>
+          <span><i data-lucide="network"></i> Data</span>
+          <span><i data-lucide="clipboard-check"></i> Delivery</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile" id="profile">
+      <div>
+        <span class="section-label">Professional profile</span>
+        <h2>More than a list of claims.</h2>
+      </div>
+      <div class="profile-copy">
+        <p>
+          This portfolio supports my CV with real project photographs collected throughout my working career.
+          It demonstrates the variety of environments, installations and site responsibilities behind the job titles.
+        </p>
+        <p>
+          My background combines electrical contracting and installation with retail refurbishment,
+          data infrastructure, surveying, coordination and practical problem-solving in live working environments.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="capabilities">
+      <span class="section-label">Core capabilities</span>
+      <h2>Work delivered across multiple settings.</h2>
+      <div class="capability-grid">
+        <article><i data-lucide="zap"></i><h3>Electrical Installation</h3><p>Distribution, containment, lighting, power, controls and refurbishment.</p></article>
+        <article><i data-lucide="cable"></i><h3>Cable Jointing</h3><p>Power and data branches, splices, mains joints and fault-response work.</p></article>
+        <article><i data-lucide="store"></i><h3>Retail Fit-Out</h3><p>Store refreshes, shelving, signage and electrical work in operational locations.</p></article>
+        <article><i data-lucide="school"></i><h3>Education</h3><p>Electrical and structured-data installations across schools and learning environments.</p></article>
+        <article><i data-lucide="clipboard-check"></i><h3>Survey & Delivery</h3><p>Site inspections, planning, scope identification and project coordination.</p></article>
+        <article><i data-lucide="wrench"></i><h3>Faults & Refurbishment</h3><p>Investigating existing installations, corrective work and practical upgrades.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <div><span class="section-label">Selected evidence</span><h2>Featured project albums.</h2></div>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="archive-copy">
+        <span class="section-label">Full historical record</span>
+        <h2>Explore the complete Flickr archive.</h2>
+        <p>
+          Every supplied album is indexed below. Album titles and summaries can be added gradually
+          in <code>projects.js</code> without redesigning the website.
+        </p>
+      </div>
+      <div class="archive-list" id="archiveList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>Marc Harris</strong><span>Electrical • Technical • Project Delivery</span></div>
+    <a href="https://www.flickr.com/photos/storefit/albums/" target="_blank" rel="noreferrer">View original Flickr profile <i data-lucide="arrow-up-right"></i></a>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
